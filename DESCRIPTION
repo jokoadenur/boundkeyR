@@ -1,11 +1,24 @@
-Package: boundkeyR
 Type: Package
-Title: What the Package Does (Title Case)
+Package: boundkeyR
+Title: Newest Visualization of Flows Data
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Author: Joko Ade Nursiyono <jokoadenursiyono@gmail.com>
+Maintainer: Joko Ade Nursiyono <jokoadenursiyono@gmail.com>
+Description: This function generates a Boundkey diagram to visualize
+    export and import flows between regions.
+License: MIT + file LICENSE
+Authors: person("Joko Ade", "Nursiyono", email =
+    "jokoadenursiyono@gmail.com", role = c("aut", "cre"))
 Encoding: UTF-8
-LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    dplyr,
+    ggforce,
+    ggplot2,
+    tidyr
+Depends: 
+    tidyverse

@@ -67,7 +67,7 @@ boundkey(data, color_palette = NULL, title = "Boundkey Diagram")
    boundkey(data, title = "Export and Import Flows in Southeast Asia")
    ```
 ### Data Requirements:
-  To use the segmonr() function effectively, your data must contain at least two columns:
+  To use the boundkey() function effectively, your data must contain at least two columns:
   
   type: Categorical variable, as instance "Export" and "Import", the type of data: character
   
@@ -76,3 +76,7 @@ boundkey(data, color_palette = NULL, title = "Boundkey Diagram")
   destination: The name of destination place
   
   value: The value representing the flow of data from the origin to the destination, or vice versa
+
+### Output:
+  Here is the visualization output using the `boundkeyR` package:
+  ![image](https://github.com/user-attachments/assets/68f153b1-a964-473c-91df-de64a205470e)

@@ -37,7 +37,7 @@ boundkey(data, color_palette = NULL, title = "Boundkey Diagram")
 
 ### Examples:
 
-1. Default data:
+1. Default data as instance Export-Import Data from jatim.bps.go.id from January-November, 2024:
    ```R
    data <- tibble(type = c("Export", "Export", "Export", "Export", "Import", "Import", "Import", "Import"),
    origin = c("Jatim", "Jatim", "Jatim", "Jatim", "China", "Amerika", "Brazil", "Hongkong"),
